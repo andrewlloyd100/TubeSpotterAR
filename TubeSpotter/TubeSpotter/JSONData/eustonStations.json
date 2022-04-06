@@ -1,0 +1,29 @@
+[
+ {
+   "Station": "Euston",
+   "OS X": 529587,
+   "OS Y": 182735,
+   "Latitude": "51.528664114832",
+   "Longitude": "-0.133296470819151",
+   "Zone": "1",
+   "Postcode": "NW1 2DU"
+ },
+ {
+   "Station": "Euston Square",
+   "OS X": 529587,
+   "OS Y": 182735,
+   "Latitude": "51.52583",
+   "Longitude": "-0.135836",
+   "Zone": "1",
+   "Postcode": "NW1 2BN"
+ },
+ {
+     "Station": "Across The St",
+     "OS X": 534738,
+     "OS Y": 181859,
+     "Latitude": "51.526505",
+     "Longitude": "-0.137187",
+     "Zone": "2",
+     "Postcode": "E2 1BY"
+ }
+]

@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		231EE1F627E0DE0C00FF3A4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231EE1F527E0DE0C00FF3A4C /* AppDelegate.swift */; };
+		231EE1FA27E0DE0C00FF3A4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231EE1F927E0DE0C00FF3A4C /* ViewController.swift */; };
+		231EE1FD27E0DE0C00FF3A4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 231EE1FB27E0DE0C00FF3A4C /* Main.storyboard */; };
+		231EE1FF27E0DE1000FF3A4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 231EE1FE27E0DE1000FF3A4C /* Assets.xcassets */; };
+		231EE20227E0DE1000FF3A4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 231EE20027E0DE1000FF3A4C /* LaunchScreen.storyboard */; };
+		231EE20A27E0E28200FF3A4C /* ViewController+CoachingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231EE20927E0E28200FF3A4C /* ViewController+CoachingOverlay.swift */; };
+		235A466227F359D700EC281B /* debugTubeStations.json in Resources */ = {isa = PBXBuildFile; fileRef = 235A466127F359D700EC281B /* debugTubeStations.json */; };
+		235A466427F359FB00EC281B /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235A466327F359FB00EC281B /* Station.swift */; };
+		235A466627F3612F00EC281B /* eustonStations.json in Resources */ = {isa = PBXBuildFile; fileRef = 235A466527F3612F00EC281B /* eustonStations.json */; };
+		235A466827F49CAA00EC281B /* shadwellStations.json in Resources */ = {isa = PBXBuildFile; fileRef = 235A466727F49CAA00EC281B /* shadwellStations.json */; };
+		235A466A27F4B48E00EC281B /* tubeStations.json in Resources */ = {isa = PBXBuildFile; fileRef = 235A466927F4B48E00EC281B /* tubeStations.json */; };
+		235A466E27F7201000EC281B /* UndergroundLogo.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 235A466D27F7200F00EC281B /* UndergroundLogo.rcproject */; };
+		235A467027F73A8500EC281B /* stationLineInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 235A466F27F73A8500EC281B /* stationLineInfo.json */; };
+		235A467227F73C9100EC281B /* ViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235A467127F73C9100EC281B /* ViewController+Alert.swift */; };
+		235A467427F73CCC00EC281B /* Entity+Generation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235A467327F73CCC00EC281B /* Entity+Generation.swift */; };
+		235A467827F749C200EC281B /* DLRLogo.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 235A467527F749C200EC281B /* DLRLogo.rcproject */; };
+		235A467927F749C200EC281B /* NationalRailLogo.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 235A467627F749C200EC281B /* NationalRailLogo.rcproject */; };
+		235A467A27F749C200EC281B /* OvergroundLogo.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 235A467727F749C200EC281B /* OvergroundLogo.rcproject */; };
+		23781CB627FC4A0400A53C09 /* TFLModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23781CB527FC4A0400A53C09 /* TFLModels.swift */; };
+		23781CB827FC731400A53C09 /* ContentFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23781CB727FC731400A53C09 /* ContentFetcher.swift */; };
+		23781CBC27FC884600A53C09 /* Cross.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 23781CB927FC884600A53C09 /* Cross.rcproject */; };
+		23781CBD27FC884600A53C09 /* Warning.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 23781CBA27FC884600A53C09 /* Warning.rcproject */; };
+		23781CBE27FC884600A53C09 /* Check.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 23781CBB27FC884600A53C09 /* Check.rcproject */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		231EE1F227E0DE0C00FF3A4C /* TubeSpotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TubeSpotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		231EE1F527E0DE0C00FF3A4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		231EE1F927E0DE0C00FF3A4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		231EE1FC27E0DE0C00FF3A4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		231EE1FE27E0DE1000FF3A4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		231EE20127E0DE1000FF3A4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		231EE20327E0DE1000FF3A4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		231EE20927E0E28200FF3A4C /* ViewController+CoachingOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+CoachingOverlay.swift"; sourceTree = "<group>"; };
+		235A466127F359D700EC281B /* debugTubeStations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = debugTubeStations.json; sourceTree = "<group>"; };
+		235A466327F359FB00EC281B /* Station.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
+		235A466527F3612F00EC281B /* eustonStations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = eustonStations.json; sourceTree = "<group>"; };
+		235A466727F49CAA00EC281B /* shadwellStations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = shadwellStations.json; sourceTree = "<group>"; };
+		235A466927F4B48E00EC281B /* tubeStations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tubeStations.json; sourceTree = "<group>"; };
+		235A466D27F7200F00EC281B /* UndergroundLogo.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = UndergroundLogo.rcproject; sourceTree = "<group>"; };
+		235A466F27F73A8500EC281B /* stationLineInfo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = stationLineInfo.json; sourceTree = "<group>"; };
+		235A467127F73C9100EC281B /* ViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Alert.swift"; sourceTree = "<group>"; };
+		235A467327F73CCC00EC281B /* Entity+Generation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entity+Generation.swift"; sourceTree = "<group>"; };
+		235A467527F749C200EC281B /* DLRLogo.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = DLRLogo.rcproject; sourceTree = "<group>"; };
+		235A467627F749C200EC281B /* NationalRailLogo.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = NationalRailLogo.rcproject; sourceTree = "<group>"; };
+		235A467727F749C200EC281B /* OvergroundLogo.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = OvergroundLogo.rcproject; sourceTree = "<group>"; };
+		23781CB527FC4A0400A53C09 /* TFLModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TFLModels.swift; sourceTree = "<group>"; };
+		23781CB727FC731400A53C09 /* ContentFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentFetcher.swift; sourceTree = "<group>"; };
+		23781CB927FC884600A53C09 /* Cross.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Cross.rcproject; sourceTree = "<group>"; };
+		23781CBA27FC884600A53C09 /* Warning.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Warning.rcproject; sourceTree = "<group>"; };
+		23781CBB27FC884600A53C09 /* Check.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Check.rcproject; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		231EE1EF27E0DE0C00FF3A4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		231EE1E927E0DE0C00FF3A4C = {
+			isa = PBXGroup;
+			children = (
+				231EE1F427E0DE0C00FF3A4C /* TubeSpotter */,
+				231EE1F327E0DE0C00FF3A4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		231EE1F327E0DE0C00FF3A4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				231EE1F227E0DE0C00FF3A4C /* TubeSpotter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		231EE1F427E0DE0C00FF3A4C /* TubeSpotter */ = {
+			isa = PBXGroup;
+			children = (
+				23781CBF27FC9B0700A53C09 /* RCProjects */,
+				23781CC027FC9B5D00A53C09 /* Models */,
+				231EE1F527E0DE0C00FF3A4C /* AppDelegate.swift */,
+				231EE1F927E0DE0C00FF3A4C /* ViewController.swift */,
+				235A467127F73C9100EC281B /* ViewController+Alert.swift */,
+				235A467327F73CCC00EC281B /* Entity+Generation.swift */,
+				231EE20927E0E28200FF3A4C /* ViewController+CoachingOverlay.swift */,
+				23781CB727FC731400A53C09 /* ContentFetcher.swift */,
+				23781CC127FC9B7800A53C09 /* JSONData */,
+				231EE1FB27E0DE0C00FF3A4C /* Main.storyboard */,
+				231EE1FE27E0DE1000FF3A4C /* Assets.xcassets */,
+				231EE20027E0DE1000FF3A4C /* LaunchScreen.storyboard */,
+				231EE20327E0DE1000FF3A4C /* Info.plist */,
+			);
+			path = TubeSpotter;
+			sourceTree = "<group>";
+		};
+		23781CBF27FC9B0700A53C09 /* RCProjects */ = {
+			isa = PBXGroup;
+			children = (
+				235A467527F749C200EC281B /* DLRLogo.rcproject */,
+				235A467627F749C200EC281B /* NationalRailLogo.rcproject */,
+				235A467727F749C200EC281B /* OvergroundLogo.rcproject */,
+				235A466D27F7200F00EC281B /* UndergroundLogo.rcproject */,
+				23781CBB27FC884600A53C09 /* Check.rcproject */,
+				23781CB927FC884600A53C09 /* Cross.rcproject */,
+				23781CBA27FC884600A53C09 /* Warning.rcproject */,
+			);
+			path = RCProjects;
+			sourceTree = "<group>";
+		};
+		23781CC027FC9B5D00A53C09 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				235A466327F359FB00EC281B /* Station.swift */,
+				23781CB527FC4A0400A53C09 /* TFLModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		23781CC127FC9B7800A53C09 /* JSONData */ = {
+			isa = PBXGroup;
+			children = (
+				235A466727F49CAA00EC281B /* shadwellStations.json */,
+				235A466527F3612F00EC281B /* eustonStations.json */,
+				235A466927F4B48E00EC281B /* tubeStations.json */,
+				235A466F27F73A8500EC281B /* stationLineInfo.json */,
+				235A466127F359D700EC281B /* debugTubeStations.json */,
+			);
+			path = JSONData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		231EE1F127E0DE0C00FF3A4C /* TubeSpotter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 231EE20627E0DE1000FF3A4C /* Build configuration list for PBXNativeTarget "TubeSpotter" */;
+			buildPhases = (
+				231EE1EE27E0DE0C00FF3A4C /* Sources */,
+				231EE1EF27E0DE0C00FF3A4C /* Frameworks */,
+				231EE1F027E0DE0C00FF3A4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TubeSpotter;
+			productName = TubeSpotter;
+			productReference = 231EE1F227E0DE0C00FF3A4C /* TubeSpotter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		231EE1EA27E0DE0C00FF3A4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					231EE1F127E0DE0C00FF3A4C = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 231EE1ED27E0DE0C00FF3A4C /* Build configuration list for PBXProject "TubeSpotter" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 231EE1E927E0DE0C00FF3A4C;
+			productRefGroup = 231EE1F327E0DE0C00FF3A4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				231EE1F127E0DE0C00FF3A4C /* TubeSpotter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		231EE1F027E0DE0C00FF3A4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				235A466627F3612F00EC281B /* eustonStations.json in Resources */,
+				231EE20227E0DE1000FF3A4C /* LaunchScreen.storyboard in Resources */,
+				235A467027F73A8500EC281B /* stationLineInfo.json in Resources */,
+				235A466A27F4B48E00EC281B /* tubeStations.json in Resources */,
+				235A466827F49CAA00EC281B /* shadwellStations.json in Resources */,
+				231EE1FF27E0DE1000FF3A4C /* Assets.xcassets in Resources */,
+				235A466227F359D700EC281B /* debugTubeStations.json in Resources */,
+				231EE1FD27E0DE0C00FF3A4C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		231EE1EE27E0DE0C00FF3A4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				235A467827F749C200EC281B /* DLRLogo.rcproject in Sources */,
+				23781CBC27FC884600A53C09 /* Cross.rcproject in Sources */,
+				231EE20A27E0E28200FF3A4C /* ViewController+CoachingOverlay.swift in Sources */,
+				23781CBD27FC884600A53C09 /* Warning.rcproject in Sources */,
+				231EE1FA27E0DE0C00FF3A4C /* ViewController.swift in Sources */,
+				23781CB627FC4A0400A53C09 /* TFLModels.swift in Sources */,
+				23781CB827FC731400A53C09 /* ContentFetcher.swift in Sources */,
+				235A467427F73CCC00EC281B /* Entity+Generation.swift in Sources */,
+				235A467A27F749C200EC281B /* OvergroundLogo.rcproject in Sources */,
+				235A466E27F7201000EC281B /* UndergroundLogo.rcproject in Sources */,
+				235A466427F359FB00EC281B /* Station.swift in Sources */,
+				231EE1F627E0DE0C00FF3A4C /* AppDelegate.swift in Sources */,
+				235A467927F749C200EC281B /* NationalRailLogo.rcproject in Sources */,
+				23781CBE27FC884600A53C09 /* Check.rcproject in Sources */,
+				235A467227F73C9100EC281B /* ViewController+Alert.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		231EE1FB27E0DE0C00FF3A4C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				231EE1FC27E0DE0C00FF3A4C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		231EE20027E0DE1000FF3A4C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				231EE20127E0DE1000FF3A4C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		231EE20427E0DE1000FF3A4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		231EE20527E0DE1000FF3A4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		231EE20727E0DE1000FF3A4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3B3T6943AP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TubeSpotter/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Used for Augmented Reality.";
+				INFOPLIST_KEY_NSLocationUsageDescription = "Used for Location Anchors.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Used for Location Anchors.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alloyd.TubeSpotter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		231EE20827E0DE1000FF3A4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3B3T6943AP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TubeSpotter/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Used for Augmented Reality.";
+				INFOPLIST_KEY_NSLocationUsageDescription = "Used for Location Anchors.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Used for Location Anchors.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alloyd.TubeSpotter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		231EE1ED27E0DE0C00FF3A4C /* Build configuration list for PBXProject "TubeSpotter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				231EE20427E0DE1000FF3A4C /* Debug */,
+				231EE20527E0DE1000FF3A4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		231EE20627E0DE1000FF3A4C /* Build configuration list for PBXNativeTarget "TubeSpotter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				231EE20727E0DE1000FF3A4C /* Debug */,
+				231EE20827E0DE1000FF3A4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 231EE1EA27E0DE0C00FF3A4C /* Project object */;
+}

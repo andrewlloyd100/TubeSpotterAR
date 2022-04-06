@@ -1,0 +1,29 @@
+[
+ {
+   "Station": "Shadwell",
+   "OS X": 534936,
+   "OS Y": 180942,
+   "Latitude": "51.5113000646694",
+   "Longitude": "-0.0569192069418581",
+   "Zone": "2",
+   "Postcode": "E1 2QE"
+ },
+ {
+   "Station": "Whitechapel",
+   "OS X": 534738,
+   "OS Y": 181859,
+   "Latitude": "51.5195876908872",
+   "Longitude": "-0.0594204849881092",
+   "Zone": "2",
+   "Postcode": "E1 1BY"
+ },
+ {
+   "Station": "Morris St",
+   "OS X": 534738,
+   "OS Y": 181859,
+   "Latitude": "51.512259",
+   "Longitude": "-0.057351",
+   "Zone": "2",
+   "Postcode": "E2 1BY"
+ }
+]
