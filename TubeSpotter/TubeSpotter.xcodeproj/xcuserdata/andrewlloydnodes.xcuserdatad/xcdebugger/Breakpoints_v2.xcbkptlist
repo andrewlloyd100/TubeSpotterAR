@@ -3,4 +3,54 @@
    uuid = "75EB3BA6-9CB3-4AD5-8710-481D06FBC94C"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "49EC5996-DF75-473D-9F82-AF15996E954B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Library/Developer/Xcode/DerivedData/TubeSpotter-fxfkfboifghtehbcjcnxbkzttmcd/Index.noindex/Build/Intermediates.noindex/TubeSpotter.build/Debug-iphoneos/TubeSpotter.build/DerivedSources/RCProjectGenerated/DLRLogo/DLRLogo.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "loadLogo()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C4C94DE3-4739-4F82-BC0B-56C91D6AAA5F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Library/Developer/Xcode/DerivedData/TubeSpotter-fxfkfboifghtehbcjcnxbkzttmcd/Index.noindex/Build/Intermediates.noindex/TubeSpotter.build/Debug-iphoneos/TubeSpotter.build/DerivedSources/RCProjectGenerated/DLRLogo/DLRLogo.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "loadLogo()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8AF1516F-25E1-4F9C-A158-FC535C5BD580"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Library/Developer/Xcode/DerivedData/TubeSpotter-fxfkfboifghtehbcjcnxbkzttmcd/Index.noindex/Build/Intermediates.noindex/TubeSpotter.build/Debug-iphoneos/TubeSpotter.build/DerivedSources/RCProjectGenerated/DLRLogo/DLRLogo.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "loadLogo()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

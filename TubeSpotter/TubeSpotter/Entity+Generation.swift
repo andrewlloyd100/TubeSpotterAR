@@ -65,25 +65,29 @@ extension Entity {
         for line in tubeLines {
             switch line.tubeLine.trainType {
             case .tube:
-                let logoScene = try! UndergroundLogo.loadScene()
-                placemarkAnchor.addChild(logoScene)
-                logoScene.setPosition(SIMD3<Float>(0, currentHeight + 1, 0),
-                                      relativeTo: placemarkAnchor)
+                if let logoEntity = try! UndergroundLogo.loadScene().findEntity(named: "logo") {
+                    placemarkAnchor.addChild(logoEntity)
+                    logoEntity.setPosition(SIMD3<Float>(0, currentHeight - 1, 0),
+                                          relativeTo: placemarkAnchor)
+                }
             case .overground:
-                let logoScene = try! OvergroundLogo.loadScene()
-                placemarkAnchor.addChild(logoScene)
-                logoScene.setPosition(SIMD3<Float>(0, currentHeight + 1, 0),
-                                      relativeTo: placemarkAnchor)
+                if let logoEntity = try! OvergroundLogo.loadScene().findEntity(named: "logo") {
+                    placemarkAnchor.addChild(logoEntity)
+                    logoEntity.setPosition(SIMD3<Float>(0, currentHeight - 1, 0),
+                                          relativeTo: placemarkAnchor)
+                }
             case .nationalRail:
-                let logoScene = try! NationalRailLogo.loadScene()
-                placemarkAnchor.addChild(logoScene)
-                logoScene.setPosition(SIMD3<Float>(0, currentHeight + 1, 0),
-                                      relativeTo: placemarkAnchor)
+                if let logoEntity = try! NationalRailLogo.loadScene().findEntity(named: "logo") {
+                    placemarkAnchor.addChild(logoEntity)
+                    logoEntity.setPosition(SIMD3<Float>(0, currentHeight - 1, 0),
+                                          relativeTo: placemarkAnchor)
+                }
             case .dlr:
-                let logoScene = try! DLRLogo.loadScene()
-                placemarkAnchor.addChild(logoScene)
-                logoScene.setPosition(SIMD3<Float>(0, currentHeight + 1, 0),
-                                      relativeTo: placemarkAnchor)
+                if let logoEntity = try! DLRLogo.loadScene().findEntity(named: "logo") {
+                    placemarkAnchor.addChild(logoEntity)
+                    logoEntity.setPosition(SIMD3<Float>(0, currentHeight - 1, 0),
+                                          relativeTo: placemarkAnchor)
+                }
             }
             let lineIndicator = generateLineIndicator(line: line.tubeLine)
             placemarkAnchor.addChild(lineIndicator)
@@ -94,20 +98,23 @@ extension Entity {
             if let status = line.status {
                 switch status.status {
                 case.good:
-                    let iconScene = try! Check.loadScene()
-                    placemarkAnchor.addChild(iconScene)
-                    iconScene.setPosition(SIMD3<Float>(-4, currentHeight - 2, 0),
-                                          relativeTo: placemarkAnchor)
+                    if let logoEntity = try! Check.loadScene().findEntity(named: "logo") {
+                        placemarkAnchor.addChild(logoEntity)
+                        logoEntity.setPosition(SIMD3<Float>(-4, currentHeight - 2, 0),
+                                              relativeTo: placemarkAnchor)
+                    }
                 case .disrupted:
-                    let iconScene = try! Warning.loadScene()
-                    placemarkAnchor.addChild(iconScene)
-                    iconScene.setPosition(SIMD3<Float>(-4, currentHeight - 2 , 0),
-                                          relativeTo: placemarkAnchor)
+                    if let logoEntity = try! Warning.loadScene().findEntity(named: "logo") {
+                        placemarkAnchor.addChild(logoEntity)
+                        logoEntity.setPosition(SIMD3<Float>(-4, currentHeight - 2, 0),
+                                              relativeTo: placemarkAnchor)
+                    }
                 case .notRunning:
-                    let iconScene = try! Cross.loadScene()
-                    placemarkAnchor.addChild(iconScene)
-                    iconScene.setPosition(SIMD3<Float>(-4, currentHeight - 2, 0),
-                                          relativeTo: placemarkAnchor)
+                    if let logoEntity = try! Cross.loadScene().findEntity(named: "logo") {
+                        placemarkAnchor.addChild(logoEntity)
+                        logoEntity.setPosition(SIMD3<Float>(-4, currentHeight - 2, 0),
+                                              relativeTo: placemarkAnchor)
+                    }
                 }
                 let lineIndicator = generateStatusIndicator(status: status)
                 placemarkAnchor.addChild(lineIndicator)

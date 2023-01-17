@@ -21,122 +21,250 @@
               "material" : "concrete",
               "overrides" : {
                 "children" : {
-                  "0BBF74DF-00D1-4E30-AE53-A223C4E6A742" : {
+                  "0BBF74DF-00D1-4E30-AE53-A223C4E6A742" : null,
+                  "6AC1843A-0463-4DD0-B73C-14FFD0BD20E9" : null,
+                  "B4BA4CD4-CF76-49D9-9707-23ACDA86E13B" : null,
+                  "BF47B3C4-43F3-4DDC-8529-2322F410EF2C" : {
                     "overrides" : {
-                      "arguments" : [
-                        [
-                          "boundHeight",
-                          {
-                            "typeName" : "Double",
-                            "value" : 1.5
-                          }
-                        ],
-                        [
-                          "boundWidth",
-                          {
-                            "typeName" : "Double",
-                            "value" : 6
-                          }
-                        ],
-                        [
-                          "depth",
-                          {
-                            "typeName" : "Double",
-                            "value" : 0.22
-                          }
-                        ],
-                        [
-                          "font",
-                          {
-                            "typeName" : "String",
-                            "value" : "Helvetica"
-                          }
-                        ],
-                        [
-                          "hasBackground",
-                          {
-                            "typeName" : "Bool",
-                            "value" : false
-                          }
-                        ],
-                        [
-                          "height",
-                          {
-                            "typeName" : "Double",
-                            "value" : 0.2117503498950129
-                          }
-                        ],
-                        [
-                          "horizontalAlignment",
-                          {
-                            "typeName" : "String",
-                            "value" : "center"
-                          }
-                        ],
-                        [
-                          "material",
-                          {
-                            "typeName" : "String",
-                            "value" : "standard"
-                          }
-                        ],
-                        [
-                          "materialColor",
-                          {
-                            "typeName" : "double4",
-                            "value" : [
-                              1,
-                              1,
-                              1,
+                      "children" : {
+                        "0BBF74DF-00D1-4E30-AE53-A223C4E6A742" : {
+                          "overrides" : {
+                            "arguments" : [
+                              [
+                                "boundHeight",
+                                {
+                                  "typeName" : "Double",
+                                  "value" : 1.5
+                                }
+                              ],
+                              [
+                                "boundWidth",
+                                {
+                                  "typeName" : "Double",
+                                  "value" : 6
+                                }
+                              ],
+                              [
+                                "depth",
+                                {
+                                  "typeName" : "Double",
+                                  "value" : 0.22
+                                }
+                              ],
+                              [
+                                "font",
+                                {
+                                  "typeName" : "String",
+                                  "value" : "Helvetica"
+                                }
+                              ],
+                              [
+                                "hasBackground",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : false
+                                }
+                              ],
+                              [
+                                "height",
+                                {
+                                  "typeName" : "Double",
+                                  "value" : 0.2117503498950129
+                                }
+                              ],
+                              [
+                                "horizontalAlignment",
+                                {
+                                  "typeName" : "String",
+                                  "value" : "center"
+                                }
+                              ],
+                              [
+                                "material",
+                                {
+                                  "typeName" : "String",
+                                  "value" : "standard"
+                                }
+                              ],
+                              [
+                                "materialColor",
+                                {
+                                  "typeName" : "double4",
+                                  "value" : [
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                  ]
+                                }
+                              ],
+                              [
+                                "oneLine",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : false
+                                }
+                              ],
+                              [
+                                "precision",
+                                {
+                                  "typeName" : "String",
+                                  "value" : "normal"
+                                }
+                              ],
+                              [
+                                "text",
+                                {
+                                  "typeName" : "String",
+                                  "value" : "!"
+                                }
+                              ],
+                              [
+                                "verticalAlignment",
+                                {
+                                  "typeName" : "String",
+                                  "value" : "bottom"
+                                }
+                              ],
+                              [
+                                "verticalPosition",
+                                {
+                                  "typeName" : "String",
+                                  "value" : "middle"
+                                }
+                              ],
+                              [
+                                "wordWrap",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : true
+                                }
+                              ]
+                            ],
+                            "factory" : {
+                              "identifier" : "com.apple.rc.af.CoreAssetFactories.Text",
+                              "version" : "0.0"
+                            },
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "05DC9C4F-8C8E-4F89-B4A9-1E1C2BB0600E"
+                                }
+                              ]
+                            ]
+                          },
+                          "transform" : {
+                            "matrix" : [
+                              10,
+                              0,
+                              0,
+                              0,
+                              0,
+                              10,
+                              0,
+                              0,
+                              0,
+                              0,
+                              10,
+                              0,
+                              -0.055832270532846451,
+                              1.0485532283782959,
+                              -0.076730102300643921,
                               1
                             ]
                           }
-                        ],
-                        [
-                          "oneLine",
-                          {
-                            "typeName" : "Bool",
-                            "value" : false
+                        },
+                        "B4BA4CD4-CF76-49D9-9707-23ACDA86E13B" : {
+                          "overrides" : {
+                            "arguments" : [
+                              [
+                                "bevelRadius",
+                                {
+                                  "typeName" : "Double",
+                                  "value" : 0.0050000000000000001
+                                }
+                              ],
+                              [
+                                "diameter",
+                                {
+                                  "typeName" : "Double",
+                                  "value" : 0.20025882053676369
+                                }
+                              ],
+                              [
+                                "height",
+                                {
+                                  "typeName" : "Double",
+                                  "value" : 0.015345387665090401
+                                }
+                              ],
+                              [
+                                "material",
+                                {
+                                  "typeName" : "String",
+                                  "value" : "standard"
+                                }
+                              ],
+                              [
+                                "materialColor",
+                                {
+                                  "typeName" : "double4",
+                                  "value" : [
+                                    0.85000002384185791,
+                                    0.50999999046325684,
+                                    0.17000000178813934,
+                                    1
+                                  ]
+                                }
+                              ],
+                              [
+                                "type",
+                                {
+                                  "typeName" : "String",
+                                  "value" : "cylinder"
+                                }
+                              ]
+                            ],
+                            "factory" : {
+                              "identifier" : "com.apple.rc.af.CoreAssetFactories.PrimitiveShapeAssetFactory",
+                              "version" : "1.0"
+                            },
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "BDF7C143-9539-4ADA-8C32-2AF5CC0EC093"
+                                }
+                              ]
+                            ]
+                          },
+                          "transform" : {
+                            "matrix" : [
+                              -10.000222206115723,
+                              1.4601981082607018e-11,
+                              8.7427986272814451e-07,
+                              0,
+                              -8.7425974015786778e-07,
+                              4.053114025737159e-05,
+                              -9.9999942779541016,
+                              0,
+                              -1.808330395147717e-11,
+                              -9.9999942779541016,
+                              -3.8146954466355965e-05,
+                              0,
+                              -4.0279701352119446e-08,
+                              1.0012940168380737,
+                              0.0512428879737854,
+                              1
+                            ]
                           }
-                        ],
-                        [
-                          "precision",
-                          {
-                            "typeName" : "String",
-                            "value" : "normal"
-                          }
-                        ],
-                        [
-                          "text",
-                          {
-                            "typeName" : "String",
-                            "value" : "!"
-                          }
-                        ],
-                        [
-                          "verticalAlignment",
-                          {
-                            "typeName" : "String",
-                            "value" : "bottom"
-                          }
-                        ],
-                        [
-                          "verticalPosition",
-                          {
-                            "typeName" : "String",
-                            "value" : "middle"
-                          }
-                        ],
-                        [
-                          "wordWrap",
-                          {
-                            "typeName" : "Bool",
-                            "value" : true
-                          }
-                        ]
-                      ],
+                        }
+                      },
                       "factory" : {
-                        "identifier" : "com.apple.rc.af.CoreAssetFactories.Text",
+                        "identifier" : "com.apple.af.Group",
                         "version" : "0.0"
                       },
                       "runtimeAttributes" : [
@@ -144,108 +272,35 @@
                           "RuntimeIdentifier",
                           {
                             "typeName" : "UUID",
-                            "value" : "05DC9C4F-8C8E-4F89-B4A9-1E1C2BB0600E"
+                            "value" : "84AAC98D-27F8-4EBE-8B4F-F79A38BA7713"
+                          }
+                        ],
+                        [
+                          "entityName",
+                          {
+                            "typeName" : "String",
+                            "value" : "logo"
                           }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        10,
+                        0.73337256908416748,
                         0,
                         0,
                         0,
                         0,
-                        10,
+                        0.73337256908416748,
                         0,
                         0,
                         0,
                         0,
-                        10,
+                        0.73337256908416748,
                         0,
-                        -0.051987174898386002,
-                        1.0485532283782959,
-                        -0.23537677526473999,
-                        1
-                      ]
-                    }
-                  },
-                  "6AC1843A-0463-4DD0-B73C-14FFD0BD20E9" : null,
-                  "B4BA4CD4-CF76-49D9-9707-23ACDA86E13B" : {
-                    "overrides" : {
-                      "arguments" : [
-                        [
-                          "diameter",
-                          {
-                            "typeName" : "Double",
-                            "value" : 0.20025882053676369
-                          }
-                        ],
-                        [
-                          "height",
-                          {
-                            "typeName" : "Double",
-                            "value" : 0.015345387665090401
-                          }
-                        ],
-                        [
-                          "material",
-                          {
-                            "typeName" : "String",
-                            "value" : "standard"
-                          }
-                        ],
-                        [
-                          "materialColor",
-                          {
-                            "typeName" : "double4",
-                            "value" : [
-                              0.85000002384185791,
-                              0.50999999046325684,
-                              0.17000000178813934,
-                              1
-                            ]
-                          }
-                        ],
-                        [
-                          "type",
-                          {
-                            "typeName" : "String",
-                            "value" : "cylinder"
-                          }
-                        ]
-                      ],
-                      "factory" : {
-                        "identifier" : "com.apple.rc.af.CoreAssetFactories.PrimitiveShapeAssetFactory",
-                        "version" : "1.0"
-                      },
-                      "runtimeAttributes" : [
-                        [
-                          "RuntimeIdentifier",
-                          {
-                            "typeName" : "UUID",
-                            "value" : "BDF7C143-9539-4ADA-8C32-2AF5CC0EC093"
-                          }
-                        ]
-                      ]
-                    },
-                    "transform" : {
-                      "matrix" : [
-                        -10.000227928161621,
-                        1.4637515158288927e-11,
-                        8.7428003325840109e-07,
+                        -0.12331464886665344,
                         0,
-                        -8.7425996753154323e-07,
-                        3.5762783227255568e-05,
-                        -9.9999980926513672,
-                        0,
-                        -1.7692512385703019e-11,
-                        -9.9999980926513672,
-                        -3.4570690331747755e-05,
-                        0,
-                        0.0038450553547590971,
-                        1.0012940168380737,
-                        -0.10740378499031067,
+                        -0.17019307613372803,
                         1
                       ]
                     }

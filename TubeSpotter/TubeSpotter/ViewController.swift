@@ -41,10 +41,12 @@ class ViewController: UIViewController, ARSessionDelegate {
         // For use in foreground
         self.locationManager.requestWhenInUseAuthorization()
 
-        if CLLocationManager.locationServicesEnabled() {
-            locationManager.delegate = self
-            locationManager.desiredAccuracy = kCLLocationAccuracyBest
-            locationManager.startUpdatingLocation()
+        DispatchQueue.global().async {
+            if CLLocationManager.locationServicesEnabled() {
+                self.locationManager.delegate = self
+                self.locationManager.desiredAccuracy = kCLLocationAccuracyBest
+                self.locationManager.startUpdatingLocation()
+            }
         }
     }
     
@@ -172,8 +174,7 @@ class ViewController: UIViewController, ARSessionDelegate {
     func session(_ session: ARSession, didAdd anchors: [ARAnchor]) {
         for geoAnchor in anchors.compactMap({ $0 as? ARGeoAnchor }) {
             let lines = tubeLinesForStation(name: geoAnchor.name ?? "")
-            let entity = Entity.placemarkEntity(for: geoAnchor,
-                                                   tubeLines: lines)
+            let entity = Entity.placemarkEntity(for: geoAnchor, tubeLines: lines)
             self.arView.scene.addAnchor(entity)
         }
     }
